@@ -1,5 +1,7 @@
-#include "number.h"
+#ifndef STACK_H
+#define STACK_H
 
+#include "number.h"
 typedef struct operatorstack{
     int top;
     char* array;
@@ -23,3 +25,5 @@ char popoperator(operatorstack *s);
 num popoperand(operandstack *s);
 char peekoperator(operatorstack s);
 num peekoperand(operandstack s);
+
+#endif

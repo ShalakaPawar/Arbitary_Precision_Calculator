@@ -4,6 +4,11 @@
 #define PLUS 1
 #define MINUS -1
 
+#include<stdio.h>
+#include<stdlib.h>
+#include<limits.h>
+#include<conio.h>
+
 //structure to store each digit - similar to doubly linked list
 struct number{
     int digit;
